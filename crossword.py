@@ -33,7 +33,7 @@ def find(word):
                     flag=0
                     break
             if flag == 1:
-                print(word,":H-",x+1,y+1)
+                print(word,":Horiontal-",x+1,y+1)
 
     for x in range(16-len(word)):
         for y in range(15):
@@ -45,7 +45,7 @@ def find(word):
                     flag=0
                     break
             if flag == 1:
-                print(word,":V-",x+1,y+1)
+                print(word,":Vertical-",x+1,y+1)
 
     for x in range(15):
         for y in range(14,0+len(word)-1,-1):
@@ -57,7 +57,7 @@ def find(word):
                     flag=0
                     break
             if flag == 1:
-                print(word,":Ulta H-",x+1,y+1)
+                print(word,":Reverse Horizontal-",x+1,y+1)
 
     for x in range(14,0+len(word)-1,-1):
         for y in range(15):
@@ -69,7 +69,7 @@ def find(word):
                     flag=0
                     break
             if flag == 1:
-                print(word,":Ulta V-",x+1,y+1)
+                print(word,":Reverse Vertical-",x+1,y+1)
     print("----------------------------------------------------------------")
 
 for word in words:
