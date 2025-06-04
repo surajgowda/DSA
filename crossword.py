@@ -1,4 +1,6 @@
-                                                                    #x
+# It had taken me 2 hours to write the code for this in 2023
+# And it is unoptimised
+#x
 ls = [['N','L','M','F','N','U','B','O','C','A','F','E','V','F','D'],#1
      ['U','J','S','M','B','O','T','L','L','U','E','Y','C','K','Y'], #2
      ['O','A','V','C','P','O','E','B','N','N','D','A','V','B','G'], #3
